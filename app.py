@@ -264,15 +264,12 @@ def main():
                                     <div>
                                         <div style="font-size: 0.9rem; color: var(--secondary-text);">Recommendation</div>
                                         <div style="margin-top: 4px;">Consult dermatologist for validation</div>
-                                    </div>
-                                    <div>
-                                        
-                                    </div>
+                                    </div> 
                                 </div>
                             </div>
                             """, unsafe_allow_html=True)
                             
-                            st.markdown('</div>', unsafe_allow_html=True)
+                            st.markdown('', unsafe_allow_html=True)
 
                     except Exception as e:
                         st.error(f"Analysis failed: {str(e)}")
